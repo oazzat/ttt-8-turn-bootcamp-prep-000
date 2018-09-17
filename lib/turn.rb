@@ -54,7 +54,7 @@ def turn (board)
     puts "Please enter 1-9:"
     pos = gets.strip
     pos = input_to_index(pos)
-      if pos == nil
+      if pos == nil || pos == false
         puts "Invalid input. Try again."
       end
   end
