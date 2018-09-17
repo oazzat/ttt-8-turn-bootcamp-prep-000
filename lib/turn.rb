@@ -28,7 +28,7 @@ end
 def input_to_index(int)
   int = int.to_i - 1
   
-  if int <9
+  if int <9 && int >=0
     return int
   else
     return nil
